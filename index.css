@@ -130,7 +130,11 @@
     line-height: 50px;
     font-size: 25px;
     font-weight: 900;
+    cursor: pointer;
     background-color: #559fa9;
+}
+.search-btn:hover{
+    background-color:#80d0c7;
 }
 #search-logo{
     color: black;
@@ -166,7 +170,7 @@
     transition: linear 0.2s;
 }
 
-.flex-item-1{
+.card{
     position: relative;
 }
 .page-num{
@@ -222,7 +226,7 @@
     font-size: 20px;
     padding-bottom: 30px;
 }
-.flex-item-2{
+.card-2{
     position: relative;
 }
 .learn-btn{
@@ -235,8 +239,11 @@
     line-height: 50px;
     font-size: 20px;
     font-weight: 900;
+    cursor: pointer;
 }
-
+.learn-btn:hover{
+    background-color: #559fa9;
+}
 .browse-topics-section{
     height: 600px;
     text-align: center;
